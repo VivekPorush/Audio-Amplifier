@@ -201,7 +201,8 @@ Documentation
 
     Although extensive explanation of code is provided in the attached spice file,
     further details can be found in the reference documentation along with this project.
-    However, basic knowledge of circuits along with familiarity with analog VLSI is required. 
+    However, basic knowledge of circuits along with familiarity with analog VLSI is required.
+   Documentation can be found at [My Git Documentation Page](http://vivekporush.github.io)
     
 ============
 Feedback
