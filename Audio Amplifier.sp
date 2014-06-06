@@ -2,8 +2,8 @@
 ********************************Audio Amplifier**************************************
 *************************************************************************************
 ***** Porush, Vivek                               e-mail: vporus2@uic.edu************
-*****						vivek.91.porush@gmail.com                                     *******
-***Audio Amplifier								                                                ***
+*****						vivek.91.porush@gmail.com                          *******
+***Audio Amplifier								                                    ***
 ***    Copyright (C) <2014>  <Porush Vivek> 	                                    ***
 ***    This program is free software: you can redistribute it and/or modify        ***
 ***    it under the terms of the GNU Affero General Public License as published by ***
@@ -24,12 +24,12 @@
 *************************************************************************************
 ***Circuit parameters are given as :-->                                           ***
 ***                                                                               ***
-***-->1. Vin	=  120 VRMS Sin Wave 60 Hz	\\ Input Voltage  \\ \\ Passive \\      ***
+***-->1. Vin	=  120 VRMS Sin Wave 60 Hz	\\ Input Voltage  \\ \\ Passive \\     ***
 ***-->2. Vregulated = +/- 15 V Dc          \\DC Regulated Voltage\\ \\Passive\\   ***
-***-->3. Vaud	=  guitar.wav				\\ Input Audio Signal \\ \\ Passive\\           ***
+***-->3. Vaud	=  guitar.wav				\\ Input Audio Signal \\ \\ Passive\\  ***
 ***-->4. Volume control                                                           ***
 ***              0.7 V(@ -3db) ~ 10 V(@ 20db)                                     ***
-***-->5. Load	=	2 channel 8 ohm  Speakers \\Load\\Passive                       ***
+***-->5. Load	=	2 channel 8 ohm  Speakers \\Load\\Passive                      ***
 *************************************************************************************
 *************************************************************************************
 ***Output results :-->                                                            ***
