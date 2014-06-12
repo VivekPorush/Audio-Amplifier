@@ -29,7 +29,7 @@
 ***-->3. Vaud =  guitar.wav              \\ Input Audio Signal \\ \\ Passive\\    ***
 ***-->4. Volume control                                                           ***
 ***              0.7 V(@ -3db) ~ 10 V(@ 20db)                                     ***
-***-->5. Load = 2 channel 8 ohm Speakers \\Load\\Passive                         ***
+***-->5. Load = 2 Channel 8 Ohm Speakers   \\Load\\Passive                        ***
 *************************************************************************************
 *************************************************************************************
 ***Output results :-->                                                            ***
