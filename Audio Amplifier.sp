@@ -1,10 +1,10 @@
-*************************************************************************************
-********************************Audio Amplifier**************************************
-*************************************************************************************
-***** Porush, Vivek                               e-mail: vporus2@uic.edu************
-*****						vivek.91.porush@gmail.com                          *******
-***Audio Amplifier								                                    ***
-***    Copyright (C) <2014>  <Porush Vivek> 	                                    ***
+**************************************************************************************
+********************************Audio Amplifier***************************************
+**************************************************************************************
+***** Porush, Vivek                               e-mail: vporus2@uic.edu*************
+*****vivek.91.porush@gmail.com                                                 *******
+***Audio Amplifier                                                                 ***
+***    Copyright (C) <2014>  <Porush Vivek>                                        ***
 ***    This program is free software: you can redistribute it and/or modify        ***
 ***    it under the terms of the GNU Affero General Public License as published by ***
 ***    the Free Software Foundation, either version 3 of the License, or           ***
@@ -24,12 +24,12 @@
 *************************************************************************************
 ***Circuit parameters are given as :-->                                           ***
 ***                                                                               ***
-***-->1. Vin	=  120 VRMS Sin Wave 60 Hz	\\ Input Voltage  \\ \\ Passive \\     ***
-***-->2. Vregulated = +/- 15 V Dc          \\DC Regulated Voltage\\ \\Passive\\   ***
-***-->3. Vaud	=  guitar.wav				\\ Input Audio Signal \\ \\ Passive\\  ***
+***-->1. Vin = 120 VRMS Sin Wave 60 Hz   \\ Input Voltage \\ \\ Passive \\        ***
+***-->2. Vregulated = +/- 15 V Dc       \\DC Regulated Voltage\\ \\Passive\\      ***
+***-->3. Vaud =  guitar.wav              \\ Input Audio Signal \\ \\ Passive\\    ***
 ***-->4. Volume control                                                           ***
 ***              0.7 V(@ -3db) ~ 10 V(@ 20db)                                     ***
-***-->5. Load	=	2 channel 8 ohm  Speakers \\Load\\Passive                      ***
+***-->5. Load = 2 channel 8 ohm Speakers \\Load\\Passive                         ***
 *************************************************************************************
 *************************************************************************************
 ***Output results :-->                                                            ***
@@ -128,4 +128,4 @@ D10 0 50 GREEN
 ** Output Requested
 .tran 1m 1
 .wave /Users/vivekporush/Desktop/000ch1.wav 24 44100 V(35)
-.end
+.End
