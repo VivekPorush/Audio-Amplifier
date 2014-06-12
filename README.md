@@ -16,11 +16,11 @@ General Usage Notes
 	- Max threads are limited to 4 in LTSPice, thus limiting performance & extended
 	  simulation times.
 	- Power Supply is replaced by two +/- 15 V DC sources from this design because 
-	original supply had setting time constraints and simulation capabilities of host 
-	computer only allowed simulate results up to 2s before it encountered thermal shutdown!!!!
-	(Due to uneven distribution of load b/w CPU & GPU; GPU remains IDEAL!!!!)
+	  original supply had setting time constraints and simulation capabilities of host 
+	  computer only allowed simulate results up to 2s before it encountered thermal shutdown!!!!
+	  (Due to uneven distribution of load b/w CPU & GPU; GPU remains IDEAL!!!!)
 	- Power Supply can be included when audio signal is a simple sine wave as it could
-	be easily simulated by host computer.
+	  be easily simulated by host computer.
 	- Power Supply can also be included if hardware permits required simulation.
 
 =============
@@ -32,9 +32,9 @@ Introduction
     in code.
     
     - HSPICE does not support ".wav" formats, thus input wave must be provided
-    in the net-list it self (as a simple sinusoidal wave).
+      in the net-list it self (as a simple sinusoidal wave).
     - Coupling coefficient for individual winding have to be provided on separate
-    lines. (for Center Tapped Transformer)
+      lines. (for Center Tapped Transformer)
 
 ==========
 Features
@@ -43,7 +43,7 @@ Features
 	-  Mono (channel 1) or Stereo (Channel 2) input from a CD or MP3 player (Audio File)
 
 	-  8 ohm speakers with minimum and maximum gain of -3 dB(0.7V/V) and 20 dB
-	(9.80~10 V/V)with minimum (0.2) distortion over the range of 300 Hz to 10KHz.
+	   (9.80~10 V/V)with minimum (0.2) distortion over the range of 300 Hz to 10KHz.
 
 	-  Digitally controlled volume with 3 bits on each channel(Inverted as PMOS)
 
@@ -61,8 +61,8 @@ on your system:-
 	- Place all the files in the folder named “Spice” in the same directory.
 
 	- In the file “Audio Amplifier.sp” change directory according to your home directory
-	 (command 'pwd' in the terminal to find path of home directory).lib /Users/vivekporush
-	 /Desktop/standard.sp ("./lib/" will remain as it is)
+	  (command 'pwd' in the terminal to find path of home directory).lib /Users/vivekporush
+	  /Desktop/standard.sp ("./lib/" will remain as it is)
 
 	- Further change audio input and output paths & name accordingly in the spice
 	  command -"wavefile" & ".wave"
@@ -107,16 +107,16 @@ respective vendors.Please read appropriate license for usage.
     Input Files
     ---------------
     LM741.sp   		Operational Amplifier (National Semiconductors)
-    guitar.wav 		Input Audio Signal File 
-                  (freesound.org under Creative Commons 0 License)
+    guitar.wav 		Input Audio Signal File
+                        (freesound.org under Creative Commons 0 License)
     --------------
     Output Files
     --------------
     out.wav    		Output Audio Signal File (24 BPS, Sample rate- 44100)
     <vol>.wav		Output Audio Signal for specified volume 
-                  (24 BPS, Sample rate- 44100)
-                  effect_of_bps.wav	Output Audio Signal for highest volume  
-                  (16 BPS, Sample rate- 56100)
+                        (24 BPS, Sample rate- 44100)
+                        effect_of_bps.wav   Output Audio Signal for highest volume  
+                        (16 BPS, Sample rate- 56100)
     
 ===============================
 Audio Input Syntax
@@ -148,16 +148,16 @@ input of another simulation.
         .wave /Users/vivekporush/Desktop/505ch1.wav 24 44100 V(35)
 
 	- <path_of_output_filename> is either a complete absolute path for the .wav file you
-	wish to create or a relative path computed from the directory containing the
-	simulation schematic or netlist.
+	  wish to create or a relative path computed from the directory containing the
+	  simulation schematic or netlist.
 	- <bits_per_sample> is the number of sampling bits. The valid range is from 1 to 32 bits.
 	- <sample_rate> is the number of samples to write per simulated second. The valid range
-	is from 1 to 4294967295 samples per second.
+	  is from 1 to 4294967295 samples per second.
 	- The remainder of the syntax lists the nodes that you wish to save. Each node will be
-	an independent channel in the .wav file. The number of channels may be 	  as few as one
-	or as many as 65535. It is possible to write a device current,e.g., Ib(Q1) as well as 
-	node voltage. The .wav analog to digital converter has a full scale range of -1 to +1
-	Volt or Amp.
+	  an independent channel in the .wav file. The number of channels may be 	  as few as one
+	  or as many as 65535. It is possible to write a device current,e.g., Ib(Q1) as well as 
+	  node voltage. The .wav analog to digital converter has a full scale range of -1 to +1
+	  Volt or Amp.
     Note that it is possible to write .wav files that cannot be played on your PC sound system
     because of the number of channels, sample rate or number of bits due to limitations of your
     PC's codec.If you want to play the .wav file on your PC sound card, keep in mind that the
@@ -173,9 +173,9 @@ Specified as per the required type of output:
     .wave	- Output file in the .wav extension
     .Print	- Print(log) requested parameters
     .Plot	- Plot(screen) requested parameters
-    .Op	- DC Operating point computations
+    .Op         - DC Operating point computations
     .Tran	- Transient analysis
-    .AC	- AC analysis
+    .AC         - AC analysis
 
 =======================================
 Macro Model Pin Configuration
