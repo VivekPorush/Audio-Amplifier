@@ -196,6 +196,12 @@ Listed below is the pin configuration of LM741 used in this project:
     .SUBCKT LM741       1   2  99  50  28
 
 ===============
+Bugs
+===============
+	- Due to internal parasites and geometry of LM 741, a LPF with cut off frequency of 30 Khz is always present.
+	- This interferes with the expected response of device and thus the resultant output is deviated.
+
+===============
 Documentation
 ===============
 
