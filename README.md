@@ -222,7 +222,7 @@ Feedback
     If you encounter any bugs or any particular features that are missing,
     please contact me at:
 
-  Porush, Vivek <vporus2@uic.edu> or <vivek.91.porush@gmail.com> or <https://sites.google.com/site/vivekporush91/>
+  Porush, Vivek <vporus2@uic.edu> or <vivek.91.porush@gmail.com> or [My website](https://sites.google.com/site/vivekporush91/)
   
     Please feel free to write your macros and extensions.If you send me patches, I will most
     probably include them in future versions of Audio Amplifier and maintain them to the best
