@@ -46,6 +46,8 @@ Features
 	-  8 ohm speakers with minimum and maximum gain of -3 dB(0.7V/V) and 20 dB
 	   (9.80~10 V/V)with minimum (0.2) distortion over the range of 300 Hz to 10KHz.
 
+	-  Operating temperature 27 C.
+
 	-  Digitally controlled volume with 3 bits on each channel
 	
 	-  Digital Volum Control is inverted as it is implimented in PMOS logic.
