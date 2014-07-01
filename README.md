@@ -207,6 +207,7 @@ Bugs
 ===============
 	- Due to internal parasites and geometry of LM 741, a LPF with cut off frequency of 30 Khz is always present.
 	- This interferes with the expected response of device and thus the resultant output is deviated.
+	- These problems may be associated with the LM741 model used in this simulation.
 
 ===============
 Documentation
